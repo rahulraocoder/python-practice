@@ -1,28 +1,14 @@
-# Standard Python ignores
+# Ignore python solutions
+python_solutions/
+python_solutions/**
+
+# Ignore pytest and cache files
+.pytest_cache/
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+.DS_Store
 
-# IDE specific ignores
-.idea/
-.vscode/
-*.swp
-*.swo
+# Track python_questions_student (don't ignore it)
+# Only ignore specific cache directories
+python_questions_student/*/__pycache__/
